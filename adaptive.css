@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1200px) {
+    .home-page {
+      min-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .home-cover {
+        min-height: 100%;
+        width: 100%;
+    
+        /* background-color: #78E876; */
+        background-image: url(pic/home-cover-2250.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .about-row {
+        min-width: 1200px;
+    }
+
+    .pre-content {
+        min-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pre-cover {
+        min-height: 100%;
+        width: 100%;
+        background-image: url(pic/pre-cover-2250.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+
+    .home-header {
+        margin-bottom: 1em;
+    }
+
+    .footer {
+        min-width: 1200px;
+    }
+
+    .footer-cover {
+        min-height: 100%;
+        width: 100%;
+        background-image: url(pic/footer-cover.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 992px) 
+
+@media only screen and (max-width: 768px) 
+
+@media only screen and (max-width: 480px) 

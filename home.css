@@ -1,0 +1,160 @@
+/* All */
+
+ul {
+    list-style-type: none; /* Убирает буллиты */
+    text-decoration: none;
+   }
+
+.header-nav {
+    text-decoration: none;
+}
+
+@import
+url('https://fonts.googleapis.com/css2 ?family=Montaga&family=Montserrat:wght@700&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@700&family=Ubuntu&display=swap');
+
+.container {
+    width: 1180px;
+    /* Измеряется ширина контейнера и плюсуется ~15пикс в кач-ве отступа */ 
+    /* В моем шаблоне 148px от краев */
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+ .header {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.header-row {
+display: flex; /* Элементы в одну линию */
+align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+justify-content: space-between; /*Контент вначале и конце контейнера*/
+}
+
+.header-logo {
+
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    color: #78E876;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;  
+    margin-right: 63px;
+}
+
+.header-nav li:last-child { 
+    margin-right: 0px;
+}
+
+/* home */
+
+.home-page {
+    /* c */
+    padding-top: 25px ;
+    height: 525px;
+    /* background-image: url(pic/cover-home.jpg);
+    background-size: contain; */
+}
+
+.home-row {
+    display: flex; /* Элементы в одну линию */
+    align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+    justify-content: space-between; /*Контент вначале и конце контейнера*/
+}
+
+.home-content-text {
+    /* display: grid; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.home-header {
+    max-width: 550px;
+    color: #000000;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.home-text {
+    max-width:275px;
+    color: #000000;
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+
+.home-pic {
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-right: 60px;
+}
+
+.home-pic img {
+    width: 300px;
+}
+
+/* .home-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+}
+
+.home-cover img {
+    object-fit: cover;
+    max-height: 525px;
+} */
+
+/* .home-cover { 
+    min-height: 100%;
+min-width: 1400px;
+width: 100%;
+height: auto;
+top: 0;
+left: 0; 
+z-index: -1;
+position: absolute;
+
+
+@media screen and (max-width: 1400px){
+	img.bg {
+	  left: 50%;
+	  margin-left: -320px;
+	}
+  }
+}
+
+.home-cover img {
+    margin-top: 130px;
+} */
+
+.home-cover {
+    min-height: 100%;
+    width: 100%;
+
+    /* background-color: #78E876; */
+    background-image: url(pic/home-cover-2250.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

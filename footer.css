@@ -1,0 +1,92 @@
+.footer {
+    max-height: 230px;
+}
+
+.footer-cover {
+    min-height: 100%;
+    width: 100%;
+    background-image: url(pic/footer-cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.footer-row {
+    display: flex; /* Элементы в одну линию */
+align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+justify-content: space-between; /*Контент вначале и конце контейнера*/
+}
+
+.footer-text {
+    max-width:225px;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-bottom: 0em;
+}
+
+.footer-title {
+    margin-top: 11em;
+    max-width: 200px;
+    color: #000000;
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0px;
+    padding-top: 0em;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.e-mail img{
+    margin-right: 2em;
+    max-width: 40px;
+}
+
+.e-mail {
+    margin-top: 6em;
+    display: flex;
+    align-items: center;   
+}
+
+.e-mail p {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.phone-number {
+    margin-top: 6em;
+    display: flex;
+    align-items: center;
+}
+
+.phone-number img {
+    margin-right: 2em;
+    max-width: 36px;
+}
+
+.phone-number p {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.adress {
+    margin-top: 6em;
+    display: flex;
+    align-items: center;
+}
+
+.adress img {
+    margin-right: 2em;
+    max-width: 36px;
+}
+
+.adress p {
+    margin-bottom: 1em;
+    font-weight: bold;
+  }

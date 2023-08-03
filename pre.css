@@ -1,0 +1,88 @@
+.pre-row {
+    position: relative;
+    display: flex; /* Элементы в одну линию */
+align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+justify-content: space-between; /*Контент вначале и конце контейнера*/
+}
+
+.container-pre {
+    margin-top: 100px;
+}
+
+.pre-content {
+ margin-top: 0em;
+}
+
+.pre-title {
+    max-width: 550px;
+    color: #000000;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0px;
+    padding-top: 6em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 0em;
+}
+
+.pre-list-1 {
+ max-width: 300px;
+ text-align: center;
+ margin-bottom: 7em;
+}
+
+.pre-1 {
+    margin-top: 3em; 
+}
+
+.pre-text {
+    max-width:750px;
+    color: #000000;
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.pre-2 {
+   margin-top: 3em; 
+}
+
+.icon-pre {
+   margin-bottom: 2em;
+}
+
+.pre-list-2 {
+    max-width: 300px;
+    text-align: center; 
+    margin-bottom: 7em;
+}
+
+.pre-3 {
+    margin-top: 3em;
+}
+
+.pre-4 {
+    margin-top: 3em; 
+}
+
+.pre {
+    background-image: url("cover-pre.png");
+    background-size: cover;
+}
+
+.pre-cover {
+    min-height: 100%;
+    width: 100%;
+    background-image: url(pic/pre-cover-2250.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}

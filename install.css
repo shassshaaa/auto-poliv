@@ -1,0 +1,53 @@
+.install-il ul {
+    display: flex; /* Элементы в одну линию */
+align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+justify-content: space-between; /*Контент вначале и конце контейнера*/
+}
+
+.install-content {
+    display: flex; /* Элементы в одну линию */
+    align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+    justify-content: space-between; /*Контент вначале и конце контейнера*/ 
+    margin-top: 6em;
+    margin-bottom: 5em; 
+}
+
+.install-title {
+    max-width: 280px;
+    color: #000000;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0px;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    text-align: left;
+}
+
+.install-li-text {
+    max-width:225px;
+    color: #000000;
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.install-text {
+    max-width:670px;
+    color: #000000;
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    line-height: 35px;
+}

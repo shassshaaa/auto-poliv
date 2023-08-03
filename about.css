@@ -1,0 +1,49 @@
+.about {
+    display: flex; /* Элементы в одну линию */
+    align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+    justify-content: space-between; /*Контент вначале и конце контейнера*/
+    }
+
+.about-row {
+    display: flex; /* Элементы в одну линию */
+    align-items: center; /* Вертикальное выравнивание, чтобы эл-ты по уровню были - посередине*/
+    justify-content: space-between; /*Контент вначале и конце контейнера*/
+    }
+
+.illustration {
+margin-top: 150px;
+margin-bottom: 150px;
+
+}
+
+.about.img {
+    margin-top: 150 px;
+    margin-bottom: 150px;
+}
+
+.about-content-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 125px;
+}
+
+.about-title {
+    max-width: 750px;
+    color: #000000;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.about-text {
+    max-width:750px;
+    color: #000000;
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
